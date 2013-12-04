@@ -1,0 +1,36 @@
+body {
+	font-family: sans-serif;
+	background:url(wild_flowers.png);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: serif;
+	color:green;
+}
+
+figure {
+	float:right;
+	padding-left:2px;
+	padding-right:1px;
+}
+
+figcaption {
+	text-align:center;
+	font-weight:400;
+}
+
+figure img {
+	border:2px solid green;
+	
+}
+img {
+	border-radius: 5px;
+	box-shadow: 6px 6px 6px red;
+
+	}
+
+blockquote {
+	background-color:#E3E4C6;
+	background: linear-gradient(to bottom, red 43%, yellow 87%, green 12%);
+	Padding: 15px;
+	}

@@ -1,0 +1,8 @@
+@media only screen and (min-width:400px) {
+	nav  {float:left; width:30%;}
+	main {float:left; width:70%;}
+	.section {clear:both;}
+}
+@media only screen and (min-width:800px) {
+	img {float:right; max-width:40%; margin:0 0 1em 2em;}
+}

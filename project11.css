@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+.rotate, .scale, .skew {
+	-webkit-transition:all 0.5s ease-in-out;
+}
+
+.rotate:hover {
+	-webkit-transform:rotate(180deg);
+}
+
+.scale:hover {
+	-webkit-transform:scale(1.5);
+}
+
+.skew:hover {
+	-webkit-transform:skew(20deg,0deg);
+}
+
+.box1 {
+	width:250px;
+	height:250px;
+	background-color:orange;
+	box-shadow: 4px 4px 2px black;
+	margin:auto;
+	-webkit-transition:all 0.5s ease-in-out;
+}
+
+.box1:hover {
+	background-color:black;
+	box-shadow: 4px 4px 2px orange;
+}
+.box2 {
+	width:250px;
+	height:250px;
+	background-color:green;
+	margin:auto;
+	-webkit-transition:all 0.2s ease-in-out;
+}
+
+.box2:hover {
+	-webkit-transform:rotate(25deg) scale(1.05);
+	-webkit-transform-origin:top right;
+}
